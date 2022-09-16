@@ -1,0 +1,7 @@
+@import "../SignUp/SignUp.module.scss";
+
+.form__item {
+    &:first-child {
+        margin: 34px 0 12px 0;
+    }
+}

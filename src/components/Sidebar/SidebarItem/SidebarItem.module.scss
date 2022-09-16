@@ -1,0 +1,17 @@
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    svg {
+        fill: #ffffff;
+    }
+}
+
+.itemText {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    min-width: 140px;
+}

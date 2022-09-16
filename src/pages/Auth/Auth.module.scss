@@ -1,0 +1,19 @@
+.wrapper {
+  background: linear-gradient(229.68deg, #6879bb 7.06%, #9300bb 95.23%); // [ ] переменая
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.logo {
+  width: 150.51px;
+  height: 47.88px;
+  margin: 32px 0;
+}

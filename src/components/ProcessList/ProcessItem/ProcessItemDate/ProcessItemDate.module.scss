@@ -1,0 +1,24 @@
+.wrapperDate {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #999999;
+}
+
+.date {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}

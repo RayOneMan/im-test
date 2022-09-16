@@ -1,0 +1,40 @@
+.title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #6879bb;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #6879bb;
+    pointer-events: none;
+    text-decoration: none;
+}
+
+.linkTitle {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    svg {
+        height: 12px;
+        width: 12px;
+    }
+}

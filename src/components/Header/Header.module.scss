@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    height: 60px;
+    box-shadow: 0px 1px 10px rgba(104, 121, 187, 0.1);
+    background-color: #ffffff;
+}
+
+.topbar {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 60px;
+    width: 224px;
+    padding: 18px 24px;
+    transition: 0.3s;
+    z-index: 4;
+}
+
+.topbarIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    svg {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    height: 24px;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 700;
+    color: #6879bb;
+}

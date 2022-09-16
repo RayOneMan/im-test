@@ -1,0 +1,61 @@
+@import "../SignUp/SignUp.module.scss";
+
+.form__item {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    gap: 103px;
+    margin: 0 0 12px 24px;
+    &:last-child {
+        margin: 12px 0 24px 24px;
+    }
+    &:first-child {
+        margin: 24px 0 12px 24px;
+    }
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 24px 0 12px 0;
+}
+
+.title__text {
+    color: #404064;
+    font-size: 26px;
+    font-style: normal;
+    line-height: 35px;
+}
+
+.label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #999999;
+}
+.form__list {
+    max-width: 696px;
+    margin: 0;
+}
+
+.myForm {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+    min-height: 266px;
+    background: #ffffff;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.myButton {
+    width: 116px;
+    height: 36px;
+}
+
+.myField {
+    width: 435px;
+}

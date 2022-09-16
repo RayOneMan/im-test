@@ -1,0 +1,17 @@
+.form__error {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-size: 14px;
+    width: 100%;
+    min-height: 96px;
+    line-height: 19px;
+    background: #ffe9db;
+    margin: 24px -48px 0;
+    padding: 24px 25px 24px 48px;
+
+    svg {
+        width: 48px;
+        height: 48px;
+    }
+}

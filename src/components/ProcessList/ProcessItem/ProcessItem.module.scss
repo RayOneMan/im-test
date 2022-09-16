@@ -1,0 +1,33 @@
+.container {
+    min-height: 252px;
+    background: #ffffff;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    margin-top: 22px;
+    padding: 12px 24px 12px 0;
+}
+
+.line {
+    border: 0.5px solid #d6dce9;
+    margin: 12px 0 0 0;
+}
+
+.wrapper {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 192px;
+    padding: 0 20% 0 0;
+}
+
+.statisticWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.dateWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
