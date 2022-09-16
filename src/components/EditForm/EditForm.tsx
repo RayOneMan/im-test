@@ -13,9 +13,9 @@ import MyInput from "../UI/Input/MyInput";
 
 import MyInputPassword from "../UI/InputPassword/MyInputPassword";
 import s from "./EditUser.module.scss";
-interface IProfileProps {}
+interface IEditFormProps {}
 
-export const EditForm: React.FC<IProfileProps> = (props: any) => {
+export const EditForm: React.FC<IEditFormProps> = (props: any) => {
   const { loading, data, refetch } = useQuery(LoadUserInfoQuery);
   const [writeInButton, setWriteInButton] = useState("Сохранить");
   const [Error, setError] = useState(null);
