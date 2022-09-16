@@ -1,50 +1,40 @@
+@import "../../../style/variables.scss";
+
 .myField {
+    display: flex;
+    align-items: center;
     width: 100%;
     height: 34px;
-    background: #ffffff;
-    border: 1px solid #d6dce9;
+    background: $input-background;
+    border: $input-border;
     box-sizing: border-box;
-    border-radius: 4px;
+    border-radius: $input-border-radius;
     padding: 12px 6px;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
-    display: flex;
-    align-items: center;
     outline-style: none;
-    color: #6879bb;
+    color: $input-text-color;
 
     &:hover {
         border: 1px solid #415fd5;
     }
     &:active {
-        background: #ffffff;
+        background: $input-activ-background;
         border: 1px solid #415fd5;
     }
     &:disabled {
-        background: #f5f5f5;
+        background: $input-disabled-background;
         border: 1px solid #d6dce9;
     }
     &::placeholder {
-        color: #cccccc;
+        color: $input-placeholder-text-color;
     }
 }
 
-.field__error {
-    display: flex;
-    align-items: center;
-    min-height: 24px;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    color: #ee4141;
-    max-width: 328px;
-}
-
 .form__eye {
-    //повтор
     position: absolute;
     right: 0;
     top: 7px;

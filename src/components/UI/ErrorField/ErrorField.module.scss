@@ -1,3 +1,5 @@
+@import "../../../style/variables.scss";
+
 .field__error {
     display: flex;
     align-items: center;
@@ -5,6 +7,6 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-    color: #ee4141;
+    color: $error-field-text-color;
     max-width: 328px;
 }

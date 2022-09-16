@@ -1,5 +1,7 @@
+@import "../../style/variables.scss";
+
 .wrapper {
-  background: linear-gradient(229.68deg, #6879bb 7.06%, #9300bb 95.23%); // [ ] переменая
+  background: $auth-background; // [ ] переменая
   height: 100vh;
   width: 100vw;
 }
@@ -13,7 +15,7 @@
 }
 
 .logo {
-  width: 150.51px;
-  height: 47.88px;
+  width: 150px;
+  height: 47px;
   margin: 32px 0;
 }
