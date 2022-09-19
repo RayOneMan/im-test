@@ -1,5 +1,3 @@
-// Компонент MetaDataItem, используется в документе ProcessItem.tsx
-// Используется в проекте для отображения метаданных о начале, завершении и загрузки процесса
 import s from "./ProcessItemDate.module.scss";
 
 

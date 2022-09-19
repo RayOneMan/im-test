@@ -6,6 +6,7 @@ import { LoadUserInfoQuery } from "../../api/LoadUserInfoQuery";
 import { serverError } from "../../utils/serverError";
 
 import { signUpValidation } from "../../utils/Validation";
+import Spinner from "../Spinner/Spinner";
 import MyButton from "../UI/Button/MyButton";
 import EditFormError from "../UI/EditFormError/EditFormError";
 import { ErrorField } from "../UI/ErrorField/ErrorField";
@@ -67,7 +68,7 @@ export const EditForm: React.FC<IEditFormProps> = (props: any) => {
   }, [data, loading]);
 
   if (loading) {
-    return <div>loading</div>;
+    return <Spinner/>;
   }
 
   return (

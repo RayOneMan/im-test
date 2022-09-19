@@ -1,9 +1,14 @@
 import { useQuery } from "@apollo/client";
 import { ProcessListQuery } from "../../api/ProcessListQuery";
+import Spinner from "../Spinner/Spinner";
 import ProcessItem from "./ProcessItem/ProcessItem";
 
 export default function ProcessList() {
   const { data, loading } = useQuery(ProcessListQuery);
+
+  if (loading) {
+    return <Spinner/>;
+  }
   return (
     <div>
       {!loading &&

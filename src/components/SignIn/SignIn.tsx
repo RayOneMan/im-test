@@ -18,7 +18,6 @@ export const SignIn = () => {
   const [Error, setError] = useState(null);
 
   const onSubmit = async (data: any) => {
-    console.log(data);
     startLogin({
       variables: { email: data.email, password: data.password },
     }).then(

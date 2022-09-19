@@ -1,6 +1,3 @@
-// Компонент MenuItem, используется в документе Menu
-// Используется в проекте для навигации между страницами после авторизации
-
 import React from "react";
 import { GlobalSvgSelector } from "../../../icons/global/globalSvgSelector";
 
